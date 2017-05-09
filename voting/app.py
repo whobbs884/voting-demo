@@ -7,10 +7,10 @@ import os
 import socket
 import logging
 import signal
-import sys
+import sys 
 
-optionA = "Dev"
-optionB = "Ops"
+optionA = "Futbol"
+optionB = "Soccer"
 name = optionA + " VS " + optionB
 
 redis = Redis(host="redis", db=0)
